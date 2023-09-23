@@ -22,8 +22,8 @@ function AuthOutlet({ children, header }) {
           <img
             src={
               theme.palette.mode === 'dark'
-                ? 'https://picsum.photos/100/50'
-                : 'https://picsum.photos/200/300'
+                ? '/vite.svg'
+                : '/vite.svg'
             }
             alt="logo"
           />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Stack, Typography, Paper } from '@mui/material';
+import AddPlantas from '../Forms/AddPlantas';
 
 function Inicio() {
   return (
@@ -73,6 +74,7 @@ function Inicio() {
           más verde y saludable.
         </Typography>
       </Paper>
+      <AddPlantas/>
     </Container>
   );
 }

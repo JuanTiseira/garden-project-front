@@ -12,12 +12,15 @@ function SobreNosotrosInfo() {
           backgroundColor: '#4CAF50', // Color verde para la introducción
         }}
       >
-        <Typography variant="h4" gutterBottom style={{ color: 'white' }}>
-          Introducción
+        <Typography gutterBottom style={{ color: 'white' ,fontSize:'48px', fontWeight:'bold'}}>
+          Compromiso con el desarrollo sustentable
         </Typography>
-        <Typography variant="body1" style={{ color: 'white' }}>
+        <Typography style={{ color: 'white' , fontSize:'30px'}}>
           Bienvenidos a nuestro vivero moderno y vibrante. Aquí, nos dedicamos a la
           creación y cuidado de hermosas plantas para mejorar tu entorno y tu vida.
+
+          Estamos comprometidos con el desarrollo sustentable es 
+          por eso que toda nuestra actividad no daña al medio ambiente
         </Typography>
       </Paper>
     </Container>

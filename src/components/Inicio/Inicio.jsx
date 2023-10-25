@@ -10,13 +10,13 @@ function Inicio() {
         sx={{
           p: 3,
           mt: 3,
-          backgroundColor: 'white', // Color verde para la introducción
+          backgroundColor: '#4CAF50', // Color verde para la introducción
         }}
       >
-        <Typography variant="h4" gutterBottom style={{ color: 'black' }}>
-          Introducción
+        <Typography gutterBottom style={{ color: 'white' ,fontSize:'48px', fontWeight:'bold'}}>
+        Bienvenido a vivero el Mango
         </Typography>
-        <Typography variant="body1" style={{ color: 'black' }}>
+        <Typography style={{ color: 'white' , fontSize:'25px'}}>
           Bienvenidos a nuestro vivero moderno y vibrante. Aquí, nos dedicamos a la
           creación y cuidado de hermosas plantas para mejorar tu entorno y tu vida.
         </Typography>
@@ -30,10 +30,10 @@ function Inicio() {
           backgroundColor: '#FF5722', // Color naranja para los objetivos
         }}
       >
-        <Typography variant="h4" gutterBottom style={{ color: 'white' }}>
+        <Typography gutterBottom style={{ color: 'white' ,fontSize:'48px', fontWeight:'bold'}}>
           Objetivos
         </Typography>
-        <Typography variant="body1" style={{ color: 'white' }}>
+        <Typography style={{ color: 'white' , fontSize:'25px'}}>
           Nuestro principal objetivo es proporcionarte plantas saludables y de alta calidad
           para embellecer tu espacio y promover un estilo de vida sostenible.
         </Typography>
@@ -47,10 +47,10 @@ function Inicio() {
           backgroundColor: '#2196F3', // Color azul para la misión
         }}
       >
-        <Typography variant="h4" gutterBottom style={{ color: 'white' }}>
+        <Typography gutterBottom style={{ color: 'white' ,fontSize:'48px', fontWeight:'bold'}}>
           Misión
         </Typography>
-        <Typography variant="body1" style={{ color: 'black' }}>
+        <Typography style={{ color: 'white' , fontSize:'25px'}}>
           Nuestra misión es inspirar a las personas a conectarse con la naturaleza y
           aportar positivamente al medio ambiente, proporcionando plantas y servicios
           excepcionales.
@@ -65,10 +65,10 @@ function Inicio() {
           backgroundColor: '#FFC107', // Color amarillo para la visión
         }}
       >
-        <Typography variant="h4" gutterBottom>
+        <Typography gutterBottom style={{ color: 'white' ,fontSize:'48px', fontWeight:'bold'}}>
           Visión
         </Typography>
-        <Typography variant="body1">
+        <Typography style={{ color: 'white' , fontSize:'25px'}}>
           Nuestra visión es convertirnos en el vivero líder en el mercado, conocido por
           la excelencia en la calidad de nuestras plantas y por promover un estilo de vida
           más verde y saludable.

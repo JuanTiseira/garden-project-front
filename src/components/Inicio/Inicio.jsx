@@ -10,13 +10,13 @@ function Inicio() {
         sx={{
           p: 3,
           mt: 3,
-          backgroundColor: '#4CAF50', // Color verde para la introducción
+          backgroundColor: 'white', // Color verde para la introducción
         }}
       >
-        <Typography variant="h4" gutterBottom style={{ color: 'white' }}>
+        <Typography variant="h4" gutterBottom style={{ color: 'black' }}>
           Introducción
         </Typography>
-        <Typography variant="body1" style={{ color: 'white' }}>
+        <Typography variant="body1" style={{ color: 'black' }}>
           Bienvenidos a nuestro vivero moderno y vibrante. Aquí, nos dedicamos a la
           creación y cuidado de hermosas plantas para mejorar tu entorno y tu vida.
         </Typography>
@@ -50,7 +50,7 @@ function Inicio() {
         <Typography variant="h4" gutterBottom style={{ color: 'white' }}>
           Misión
         </Typography>
-        <Typography variant="body1" style={{ color: 'white' }}>
+        <Typography variant="body1" style={{ color: 'black' }}>
           Nuestra misión es inspirar a las personas a conectarse con la naturaleza y
           aportar positivamente al medio ambiente, proporcionando plantas y servicios
           excepcionales.
@@ -74,7 +74,6 @@ function Inicio() {
           más verde y saludable.
         </Typography>
       </Paper>
-      <AddPlantas/>
     </Container>
   );
 }

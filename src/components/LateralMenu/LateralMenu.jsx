@@ -31,47 +31,32 @@ const LateralMenu = ({ children }) => {
     <Stack>
      
       <Grid container
-        sx={{
+        sx={{ 
           p: 2,
           boxShadow: 3,
-          borderRadius: 5,
           position: 'relative',
-          backgroundColor: 'grey.100',
-          marginBottom: 5,
+          backgroundColor: 'white',
         }}>
         <Grid item xs={12} sm={6} md={3}>
           <ListItem button onClick={() => navigate('/Inicio')}>
-            <ListItemIcon>
-              <Home />
-            </ListItemIcon>
             <ListItemText>Inicio</ListItemText>
           </ListItem>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <ListItem button onClick={() => navigate('/sobre-nosotros')}>
-            <ListItemIcon>
-              <Dock />
-            </ListItemIcon>
             <ListItemText>Sobre nosotros</ListItemText>
           </ListItem>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <ListItem button onClick={() => navigate('/plantas')}>
-            <ListItemIcon>
-              <Pages />
-            </ListItemIcon>
             <ListItemText>Publicaciones</ListItemText>
           </ListItem>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <ListItem button onClick={() => navigate('/login')}>
-            <ListItemIcon>
-              <DomainVerification />
-            </ListItemIcon>
             <ListItemText>Iniciar sesion</ListItemText>
           </ListItem>
         </Grid>
-        
       </Grid>
       {/* {!isOpen && <Link onClick={toggleDrawer}>
         <IconButton>

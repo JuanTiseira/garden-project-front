@@ -43,7 +43,7 @@ function Login() {
   }, []);
 
   return (
-    <AuthOutlet>
+    <AuthOutlet header={"Bienvenido de nuevo"}>
       <TextField
         inputRef={email}
         type="email"
@@ -74,30 +74,12 @@ function Login() {
             ),
           }}
         />
-        <Link
-          variant="body2"
-          textAlign="right"
-          onClick={() => navigate('/forgot-password')}
-        >
-          Forgot password?
-        </Link>
 
         <Button variant="contained" onClick={loginHandler}>
           Sign in
         </Button>
       </Stack>
-      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-        <Typography variant="body2" component="p">
-          Dont you have an account?
-        </Typography>
-        <Link
-          variant="body2"
-          sx={{ display: 'inline', ml: 1 }}
-          onClick={() => navigate('/register')}
-        >
-          Register
-        </Link>
-      </Box>
+      
     </AuthOutlet>
   );
 }
